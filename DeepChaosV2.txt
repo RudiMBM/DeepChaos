@@ -1,0 +1,169 @@
+    Eine Funktion wird gestartet durch die Eingabe eines Zeichens
+    über die Tastatur im jeweiligen aktivierten Fenster,
+    oder von mehreren, wie bei einem Menü,
+    oder durch Double-Klick auf eine dieser Zeilen,
+    oder durch Select einer dieser Zeilen und Return,
+    bei der Angabe "und dann..." sollte
+    eine zweite Zeile ausgeführt werden.
+    Man kann sich die Codes auch merken und direkt Eintippen.
+    Und natülich durch die Menüs.
+
+   -------------------------------------------------------------------------
+a  a  = starte sequenzielle Auswertung. (Zeitreihe)
+b  b  = Bearbeiten
+bc               c = Bildcenter laden von
+bct		t = TestPunkt
+   -------------------------------------------------------------------------
+c  c  = öffne Colorierungs-Fenster.
+   -------------------------------------------------------------------------
+d  d  = Menü Datei....
+dn                 n = Neue Datei
+dö                 ö = Öffnen
+ds                 s = Sichern
+da                 a = Speichern als...
+		   F4 = Speichern Bild als *.jpg mit Filename aus DatenPfade-Panel	
+dd                 d = als neu Speichern in Datenbank
+du                 u = Update aktuellen Datenbanksatz
+   -------------------------------------------------------------------------
+e  e  = Exportieren
+ej                 j = Bild als .jpg
+eo                 o = Liste aller Z eines Orbits als .txt
+ep                 p = Ausdruck der Erstellungsparameter als .txt
+   -------------------------------------------------------------------------
+f  f  = Farbtab bearbeiten oder laden
+f1                 1 = Bild 1
+f2                 2 = Bild 2
+f3                 3 = Bild 3
+f4                 4 = Bild 4
+fd                 d = Von der Datenbank
+   -------------------------------------------------------------------------
+g  g  =
+h  h  = diese Hilfe
+i  i  = bild Vergrößern und berechnen ( zoomIn )
+j  j  =
+k  k  =
+l  l  =
+m  m  = Main-Window ( Center )
+n  n  = Bild neu zeichnen
+   -------------------------------------------------------------------------
+o  o  = Optionen wählen
+oa                 a = Anzeige mit.....
+oak                               k = Koordinaten ein/aus
+oab                               b = Bildcenter markieren
+oan                               n = Iternummer bei Orbit
+oam                               m = Minimum Iter-Ort oder -Nr.
+oae                               e = Markierung Orbit-Startpunkt
+oao                               o = Orbitlinen ( Line von Zx -> Zx+1 )
+oaw                               w = ....weiter mit w - Menü
+   -------------------------------------------------------------------------
+p  p  = Parameter zur Bilderstellung holen von ....
+p1                 1 = Bild 1
+p2                 2 = Bild 2
+p3                 3 = Bild 3
+p4                 4 = Bild 4
+pd                 d = Von der Datenbank
+pv                 v = Volle Größe
+pl                 l = letzte Session
+   -------------------------------------------------------------------------
+.  .  = PunktMenü auswählen......
+.t                 t = Testpunkt...
+.r                 t = Referenzpunkt...
+.j                 j = Juliapunkt....
+.i                 i = Imaginärpunkt....
+.s                 s = Start-Linie....
+.e                 e = End-Line................und dann:
+*c                                c = wo Cursor ist
+                                  p = Punkt laden ( Punkt-Get ) von .....
+*po                                         nun0 = Orbitanalyse
+*p1                                         num1 = Bild 1
+*p2                                         num2 = Bild 2
+*p3                                         num3 = Bild 3
+*p4                                         num4 = Bild 4
+*pd                                         d = Von der Datenbank
+*a                                a = Absoluteingabe
+                                  s = Punkt setzen
+*n                                          0 = Punktkoordinaten  0.0 / 0.0
+*a                                         1 = Punktkoordinaten +1.0 / 0.0
+                                  verschieben mit Maus und Cursotasten.
+                                  beenden mit Return = ok oder ESC.
+   -------------------------------------------------------------------------
+q  q  = beenden (Quit)
+r  r  = bild neu Rechnen
+i  i  = bild Vergrößern und berechnen ( zoomIn )
+s  s  = Stop rechnen
+t  t  =
+u  u  = bild Umherschieben
+   -------------------------------------------------------------------------
+w  w  = Wo ist......
+wt                 t = Testpunkt....
+wr                 t = Referenzpunkt....
+wj                 j = Juliapunkt....
+wi                 i = Imaginärpunkt..
+ws                 s = Start-Linie....
+we                 e = End-Line....
+wl                 l = Line....
+wz                 z = Zoom....
+wb                 b = Bild................und dann:
+*1                                          num1 = Bild 1
+*2                                          num2 = Bild 2
+*3                                          num3 = Bild 3
+*4                                          num4 = Bild 4
+*d                                          d = Von der Datenbank
+   -------------------------------------------------------------------------
+x  x  = starte Orbitanlyse.
+y  y  = phasenanalYse zeigen
+   -------------------------------------------------------------------------
+z  z  = Zoom einrichten ( rechteckig )........
+                       Manuell mit Cursotasten und Maus
+z.                 . = Zoomcenter von Punkt laden ( Siehe unter Menü w: )
+za                 a = Absoluteingabe
+zv                 v = volle Größe
+z1                 num1 = Bild 1
+z2                 num2 = Bild 2
+z3                 num3 = Bild 3
+z4                 num4 = Bild 4
+z0                 num0 = Obitanalyse
+Z  Z  = Cyclezoom einrichten ( kreisförmig )....
+                       Manuell mit Cursotasten und Maus
+Z.                 . = Zoomcenter von Punkt laden ( Siehe unter Menü w: )
+Za                 a = Absoluteingabe
+   -------------------------------------------------------------------------
+0  num0  = zeige Orbitanalyse Fenster
+1  num1  = zeige Bild 1 Fenster   ( Bilder erstellen nur im Center )
+2  num2  = zeige Bild 2 Fenster
+3  num3  = zeige Bild 3 Fenster
+4  num4  = zeige Bild 4 Fenster
+   -------------------------------------------------------------------------
+   F1 = diese Hilfe
+   *************************************************************************
+   Zusätzlich im Color-Fenster:
+   -------------------------------------------------------------------------
+l  l  = Log-Anzeige-Punkt verschieben
+                   Numpad 0 = aus ( Center )
+                   Numpad 1 = logarithmische Anzeige
+                   Numpad 2 = logarithmische Anzeige hoch 2
+                   Numpad 3 = logarithmische Anzeige hoch 3
+ö ö = Palette öffnen, laden
+   shift    = a) am Farbtab            : diesen Farbtab verschieben
+              b) zwischen den Farbtabs : Alle verschieben
+   alt      = Logpunkt verschieben
+   strg     = Farbtab bearbeiten
+   Numpad 0 = LogPoint in Mittelstellung
+   Numpad 1 = Log-Kurve normal
+   Numpad 2 = Log-Kurve hoch 2
+   Numpad 3 = Log-Kurve hoch 3
+   -------------------------------------------------------------------------
+
+   CursorTasten = verschieben des Objektes.
+   BildTasten = vergrößern oder verkleinern des Objektes.
+
+   Eine zweimalig gedrückte Taste führt wieder zu Deaktivierung,
+   oder jede Andere der nicht erlaubten, oder auch ESC.
+
+   Nicht jeder der Tastencodes ist in jedem der beteiligten
+   Fenster aktiv, und auch nicht alle in diesem Fenster.
+   Siehe Help im jeweiligem Fenster.
+   Eingerückte Tasten sind Unterfunktionen und nur innerhalb der
+   Hauptfunktion gültig. Mausaktivitäten beziehen sich auf die
+   jeweilige Hauptfunktion und sind auch nur möglich wenn eine
+   Funktion aktiviert wurde.
