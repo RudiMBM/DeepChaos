@@ -8,4 +8,4 @@ start rechnen (r) mit Params aus den Mainwindow
 Sollten Startschwierigkeiten auftreten, dann noch DeepchaosV2.ini runderladen und damit starten.
 DeepChaosV2.txt wird von der .exe ins Helpfenster eingelesen.
 
-An der Bedienungsanleitung wird noch gearbeitet.
+An der Bedienungsanleitung wird noch gearbeitet.Eine neue Programmversion ist auch in Arbeit.
