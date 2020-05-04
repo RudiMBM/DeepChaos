@@ -9,3 +9,5 @@ Sollten Startschwierigkeiten auftreten, dann noch DeepchaosV2.ini runderladen un
 DeepChaosV2.txt wird von der .exe ins Helpfenster eingelesen.
 
 An der Bedienungsanleitung wird noch gearbeitet.Eine neue Programmversion ist auch in Arbeit.
+Bedienung3.pdf ist noch unvollendet.
+Tanz.pdf ist auch unvollendet, aber schon sehr gewachsen.
