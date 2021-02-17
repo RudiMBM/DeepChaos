@@ -11,4 +11,3 @@ DeepChaosV2.txt wird von der .exe ins Helpfenster eingelesen.
 Eine ganz neue Programmversion V3.0 ist auch in Arbeit. Wird aber noch dauern, es sei denn, jemand möchte mitmachen.
 
 Bedienung3.pdf ist noch unvollendet.
-Tanz.pdf ist auch unvollendet, aber schon sehr gewachsen.
